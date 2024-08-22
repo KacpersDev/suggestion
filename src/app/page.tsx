@@ -1,6 +1,6 @@
 "use client";
 import Header from "./components/header/Header";
-import Body from "./components/header/body/Body";
+import Body from "./components/body/Body";
 
 import { useState } from "react";
 
