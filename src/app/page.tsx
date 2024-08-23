@@ -6,6 +6,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [currentButton, setCurrentButton] = useState("Suggestions");
+  const [isLoggedIn, setLoggedIn] = useState(false);
 
   return (
     <>
@@ -13,7 +14,7 @@ export default function Home() {
         currentButton={currentButton}
         setCurrentButton={setCurrentButton}
       />
-      <Body currentButton={currentButton} />
+      <Body currentButton={currentButton}/>
     </>
   );
 }

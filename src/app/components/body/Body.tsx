@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 interface ActiveButton {
-  currentButton: any;
+  currentButton: String;
 }
 
 import Suggestion from "../suggestion/Suggestion";
